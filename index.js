@@ -15,12 +15,12 @@ function divide(a, b){
   number = a / b;
   return number;
 }
-function inc(a){
-  number = a + 1;
+function inc(n){
+  number = n + 1;
   return number;
 }
-function dec(a){
-  number = a - 1;
+function dec(n){
+  number = n - 1;
   return number;
 }
 function makeInt(a){
