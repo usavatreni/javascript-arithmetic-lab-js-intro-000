@@ -1,33 +1,33 @@
 var number;
-function add(a, b){ 
+function add(a, b){
   number = a + b;
   return number;
 }
-function subtract(a, b){ 
+function subtract(a, b){
   number = a - b;
   return number;
 }
-function multiply(a, b){ 
+function multiply(a, b){
   number = a * b;
   return number;
 }
-function divide(a, b){ 
+function divide(a, b){
   number = a / b;
   return number;
 }
-function inc(a){ 
+function inc(a){
   number = a + 1;
   return number;
 }
-function dec(a){ 
+function dec(a){
   number = a - 1;
   return number;
 }
-function makeInt(a){ 
+function makeInt(a){
   number = parseInt(a, 10);
   return number;
 }
-function preserveDecimal(a){ 
+function preserveDecimal(a){
   number = parseFloat(a, 10);
   return number;
 }
