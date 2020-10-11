@@ -16,12 +16,12 @@ function divide(a, b){
   return number;
 }
 function inc(n){
-  number = n++
-  return n;
+  number = n + 1
+  return number;
 }
 function dec(n){
-  n = number + n++;
-  return n
+  number = n - 1
+  return number;
 }
 function makeInt(a){
   number = parseInt(a, 10);
