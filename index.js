@@ -20,8 +20,8 @@ function inc(n){
   return number;
 }
 function dec(n){
-  number = n++;
-  return number;
+  n = number + n++;
+  return n
 }
 function makeInt(a){
   number = parseInt(a, 10);
